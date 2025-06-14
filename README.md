@@ -83,6 +83,18 @@ python eval.py data/hcvrp/hcvrp_v3_40_seed24610.pkl --model outputs/hcvrp_v3_40 
 - The `--width` represents sampling number, which is only available when `--decode_strategy` is `sample`.
 - The `--eval_batch_size` is set to 1 for serial evaluation.
 
+### Citations
+
+```
+@inproceedings{liu20242d,
+  title={2d-ptr: 2d array pointer network for solving the heterogeneous capacitated vehicle routing problem},
+  author={Liu, Qidong and Liu, Chaoyue and Niu, Shaoyao and Long, Cheng and Zhang, Jie and Xu, Mingliang},
+  booktitle={Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems},
+  pages={1238--1246},
+  year={2024}
+}
+```
+
 
 
 
