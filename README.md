@@ -84,7 +84,7 @@ python eval.py data/hcvrp/hcvrp_v3_40_seed24610.pkl --model outputs/hcvrp_v3_40 
 - The `--eval_batch_size` is set to 1 for serial evaluation.
 
 ### Citations
-
+If you use 2D-Ptr or this codebase in your work, please cite:
 ```
 @inproceedings{liu20242d,
   title={2d-ptr: 2d array pointer network for solving the heterogeneous capacitated vehicle routing problem},
